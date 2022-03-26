@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.game{
+    display: flex;
+}
+
+.title{
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    padding-bottom: 450px;
+}

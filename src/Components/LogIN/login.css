@@ -1,0 +1,17 @@
+.btn{
+    display: flex;
+    gap: 20px;
+    align-Items: center;
+    font-Size: 15px;
+    font-Weight: 600;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.btn .button{
+    display: flex;
+    justify-content: center;
+    padding-right: 100px;
+    padding-top: 30px;
+    margin-right: 0;
+}

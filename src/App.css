@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Open+Sans:wght@300&family=Sora&display=swap%22");
+
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comfortaa", sans-serif;
+}
+
+body {
+  margin: 0px;
+  background-color: #071330;
+  color: #D0DCE8;
+  overflow-x: hidden;
+}
+
+.Sidebar {
+  height: 100vh;
+  width: 250px;
+  padding-left: 70px;
+}
+
+.logo{
+  width: 175px;
+  display: inline-block;
+  padding-left: 0px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.SidebarList{
+  height: auto;
+  width: 100%;
+}
+
+.SidebarList .row {
+  width: auto;
+  height: 64px;
+  list-style-type: none;
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  color: rgb(194, 191, 191);
+  justify-content: center;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+}
+
+.SidebarList .row:hover{
+  cursor: pointer;
+  color: #744296;
+  text-shadow: 0 0 10px #744296;
+}
+
+.SidebarList #active {
+  color: #744296;
+  border: 1px solid #744296;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #744296;
+}
+
+.row #icon{
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+
+.row #title{
+  flex: 70%;
+}
+
+.icons{
+  display: flex;
+  padding: 10px;
+  padding-top: 50px;
+  padding-left: 0;
+}
+
+.icons .icon{
+  width: 40px;
+  font-size: 25px;
+  padding-right: 40px;
+  padding-left: 0;
+}
+
+.icon:hover{
+  cursor: pointer;
+  color: #744296;
+}

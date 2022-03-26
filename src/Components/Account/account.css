@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.account{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.center{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-right{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 100px;
+}
+
+.tokens{
+    color: rgb(194, 191, 191);
+    width: 70vw;
+    height: 750px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #744296;
+    opacity: 0.6;
+    margin: 0;
+    box-shadow: 0 0 10px #744296;
+}
+
+.mint{
+    border: 1px solid #744296;
+    box-shadow: 0 0 10px #744296;
+}
+
+.bubble-left{
+    width:  33%;
+    height: 750px;
+    margin: 0;
+}
+
+.mint-button{
+    width:  33%;
+    height: 750px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bubble-right{
+    width:  33%;
+    height: 750px;
+}
+
+.circle {
+    display: flex;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #744296;
+    border: 1px solid #744296;
+    margin: 50px;
+    margin-top: 60px;
+  }
+
+  .circle-middle{
+    display: flex;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #744296;
+    border: 1px solid #744296;
+    margin-left: 150px;
+    margin-top: 20px;
+  }
+
+.top-layer{
+    width: 100%;
+    height: 33%;
+    display: flex;
+}
+
+.middle-layer{
+    width: 100%;
+    height: 33%;
+    display: flex;
+}
+
+.bottom-layer{
+    width: 100%;
+    height: 33%;
+    display: flex;
+}
+
+.circle-top{
+    display: flex;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #744296;
+    border: 1px solid #744296;
+    margin-left: 270px;
+    margin-top: 20px;
+}
+
+.circle-left{
+    display: flex;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #744296;
+    border: 1px solid #744296;
+    margin-left: 70px;
+    margin-top: 80px;
+}
+
+.image{
+    height: 100%;
+    width: 100%; 
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.mint:hover{
+    transform: scale(1.1);
+}

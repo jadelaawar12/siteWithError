@@ -1,0 +1,121 @@
+.up{
+    display: flex;
+    padding: 0;
+}
+
+.carries{
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+.holder{
+    width: 900px;
+    color: rgb(194, 191, 191);
+    border-radius: 30px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #744296;
+    opacity: 0.6;
+    box-shadow: 0 0 10px #744296;
+}
+
+.upper{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-left: 100px;
+}
+
+.down{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.left{
+    width: 450px;
+    color: rgb(194, 191, 191);
+    border-radius: 30px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid #744296;
+    opacity: 0.6;
+    box-shadow: 0 0 10px #744296;
+}
+.right{
+    width: 450px;
+    color: rgb(194, 191, 191);
+    border-radius: 30px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid #744296;
+    opacity: 0.6;
+    box-shadow: 0 0 10px #744296;
+}
+
+.down-2{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 100px;
+    margin-top: 60px;
+}
+
+.bottom-left{
+    width: 450px;
+    color: rgb(194, 191, 191);
+    border-radius: 30px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid #744296;
+    opacity: 0.6;
+    box-shadow: 0 0 10px #744296;
+}
+.bottom-right{
+    width: 450px;
+    color: rgb(194, 191, 191);
+    border-radius: 30px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid #744296;
+    opacity: 0.6;
+    box-shadow: 0 0 10px #744296;
+}
+
+.price{
+    color: rgb(255, 255, 255);
+    opacity: 2;
+}
+
+.apy{
+    text-shadow: 0 0 20px #744296;
+    color: white;
+}

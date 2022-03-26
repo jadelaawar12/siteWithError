@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Open+Sans:wght@300&family=Sora&display=swap%22");
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.wholescreen{
+    display: flex;
+}
+
+.hold{
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.token{
+    margin-left: 700px;
+    display: flex;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.header{
+    padding-right: 20px;
+}
+.ramper{
+    margin-top: 120px;
+    margin-left: 100px;   
+}
+
+.staking{
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+.holds-box{
+    width: 1100px;
+    color: rgb(194, 191, 191);
+    border-radius: 30px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #744296;
+    opacity: 0.6;
+    box-shadow: 0 0 10px #744296;
+}
+
+.holds-staking{
+    width: 900px;
+    color: rgb(194, 191, 191);
+    border-radius: 30px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0.6;
+}
+
+.holds-staking{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.stake-button{
+    width:95%;
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+
+.info{
+    width: 90%;
+    height: 66%;
+    border: 3px solid #744296;
+    box-shadow: 0 0 10px #744296;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.stake-now{
+    border: 1px solid #744296;
+    box-shadow: 0 0 10px #744296;
+}
+
+.stake-information{
+    background-color: red;
+    width: 85%;
+    height: 95%;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+.apy-extra{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.stake-top-layer{
+    width: 100%;
+    height: 35%;
+    display: flex;
+}
+
+.stake-bottom-layer{
+    width: 100%;
+    height: 35%;
+    display: flex;
+}
+
+.stake-topleft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 0;
+}
+
+.amount-input{
+    margin: 10px;
+}
+.amount-title{
+    margin-left: 10px;
+    color: white;
+    font-size: 38px;
+    text-shadow: 0 0 10px #744296;
+}
+
+.stake-topright{
+    width: 50%;
+    height: 100%;
+}
+
+.stake-bottomleft{
+    width: 50%;
+    height: 100%;
+}
+
+.stake-bottomright{
+    width: 50%;
+    height: 100%;
+}
+
+.token-price{
+    width: 30%;
+    height: 80px;
+    border: 1px solid #744296;
+    box-shadow: 0 0 10px #744296;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.apy{
+    width: 30%;
+    height: 80px;
+    border: 1px solid #744296;
+    box-shadow: 0 0 10px #744296;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.supply{
+    width: 30%;
+    height: 80px;
+    border: 1px solid #744296;
+    box-shadow: 0 0 10px #744296;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.text{
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-shadow: 0 0 10px #744296;
+}
+
+.stake-now:hover{
+    transform: scale(1.1);
+}
